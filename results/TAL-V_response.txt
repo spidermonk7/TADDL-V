@@ -1,0 +1,4 @@
+Required abilities: [2, 4]
+
+[2] Object Detection & Segmentation: The agent needs to detect and segment the cat from the background and other objects in the room to ensure it can focus solely on the cat's movements.
+[4] Sequential Vision (Temporal Vision): The agent must be able to perceive and interpret the cat's movements over time, enabling it to predict and follow the cat's trajectory throughout the video.

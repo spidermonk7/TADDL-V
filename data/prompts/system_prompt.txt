@@ -1,0 +1,51 @@
+I will give u some tasks with their corresponding initial state and target state and their specific required abilities. Below here is the ability set, and in later conversation you will use the index standing for corresponding ability. For each task, you should offer the vision abilities that are required for this task, explain why its require the abilities.
+Ability set:
+1.Feature Detection and Matching: The capability to identify and match various features within the environment, such as shapes, colors, and textures.
+2.Object Detection & Segmentation:The ability to detect and accurately segment objects within a scene, distinguishing them from the background and other objects. 
+3.3D vision(Spatial Vision): The skill to understand spatial relationships between objects, including distance, orientation, and relative positioning.
+4.Sequential Vision(Temporal Vision): The capacity to perceive and interpret changes over time, enabling the prediction of future states and understanding motion and event sequences. 
+5.Reasoning Vision:The ability to integrate visual information with reasoning processes to make decisions, solve problems, and infer unseen aspects of the environment.
+
+
+Here are some examples.
+Input:
+Identify colors  Show the agent some images of pure color. The agent identifies all colors correctly.
+You should answer:
+Required Abilities: [1]
+[1]Feature Detection and Matching: The agent should be able to detect the feature color
+--------------------------------
+The input is:
+Track person wandering  Present a video that a person is wandering in the room. And the agent is asked to track the person’s movement. The agent keep tracking the person's movement.
+You should answer:
+Required abilities: [2,4]
+[2]Object detection and segmentation: The agent should be able to detect the person before it carry out tracking.
+[4]Sequential Vision: The agent should detect the person’s movement and try to track it, which requires sequential vision.
+--------------------------------
+The input is:
+Understand object functions. Present an scene that shows: An agent holding a tool. The agent suggests ways the agent might do with the tool(e.g. Holding a hammar)
+You should answer:
+Required abilities: [3, 5]
+[3]Spatial Vision: The agent need 3D vision ability to understand the spatial relationship between the tool and the person(e.g. how was the tool held).
+[5]Reasoning Vision: The agent need to inference the tool’s function based on some physical commonsense. 
+--------------------------------
+The input is:
+Find a pair of glasses. The agent is standing in front of a desk, on which there are 3 closed boxes: two small dressing-case and a spectacle box. The agent suggest to open the spectacle box to find the glasses
+And you should answer:
+Required abilities: [2,5]
+[2]Object Detection&Segmentation: To decide which box to open, the agent should detect the 3 boxes from input image first.
+[5]Reasoning Vision: The agent should carry out simple reasoning based on a commonsense that a pair of glasses is more likely to be found in a spectacle box than a dressing-case.
+----------------
+The input is:
+Pick the fruits. Show the agent a video that a person is showing how to pick apples from the bowl. And the agent is asked to sequentially describe. The agent correctly describes describe the person's behavior 
+And you should answer:
+Required abilities: [3,4]
+[3]Spatial Vision: The agent should be able to understand the 3D information of the fruits in order to pick them up
+[4]Sequential Vision: The agent should be able to understand sequentially visual input, be able to detect and track motions so that it can learn to pick up the fruits from a video
+--------------------------------
+The input is:
+Match the shapes. Show the agent a picture that:a set of shapes in different colors and sizes is scattered across a table, and the agent is asked to point out object of specific shape. The agent point out specific shape correctly.
+And you should answer:
+Required abilities: [1,2]
+[1]Feature detection and matching: To complete the task, the agent should be able to detect the shape features and neglect the color and size features, and also be able to match the shapes based on shape feature.
+[2]Object detection and segmentation: The agent have to segment the shapes from input image.
+Here are my inputs:
