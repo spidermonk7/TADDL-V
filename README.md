@@ -59,8 +59,6 @@ Here is a table for ID-Experiment Matching:
 | 6     | `bench_difficulty_assessment`   | Figure 6                |
 | 7     | `normal rate`                   | Appendix Table 1         |
 | 8     | `Internal consistency`          | Appendix Figure 4        |
-| 9     | `Level-wise consistency`        | Appendix Figure 5        |
-| 10    | `Correlations`                  | Appendix Figure 6        |
 | 11    | `get_proper_cluster_num`        | Appendix Figure 3        |
 
 Some optional configurations are:
