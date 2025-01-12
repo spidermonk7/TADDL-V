@@ -50,18 +50,18 @@ Here is a table for ID-Experiment Matching:
 
 | Index | Experiment Function             | Position in Paper        |
 |-------|---------------------------------|--------------------------|
-| 0     | `get_difficulty_levels`         | Figure 2b                |
-| 1     | `solve_FA`                      | Figure 2c                |
-| 2     | `calculate_relative_difference` | Figure 4a                |
-| 3     | `heatmap`                       | Figure 4b                |
+| 0     | `get_difficulty_levels`         | Hogeranking for difficulty|
+| 1     | `solve_FA`                      | Figure 3(Left)           |
+| 2     | `calculate_relative_difference` | Figure 4b               |
+| 3     | `heatmap`                       | Figure 4a                |
 | 4     | `level_wise_ability`            | Figure 5a                |
 | 5     | `bench_wise_ability`            | Figure 5b                |
-| 6     | `bench_difficulty_assessment`   | Figure 5c                |
+| 6     | `bench_difficulty_assessment`   | Figure 6                |
 | 7     | `normal rate`                   | Appendix Table 1         |
-| 8     | `Internal consistency`          | Appendix Figure 1        |
-| 9     | `Level-wise consistency`        | Appendix Figure 2        |
-| 10    | `Correlations`                  | Appendix Figure 3        |
-| 11    | `get_proper_cluster_num`        | Appendix Figure 6        |
+| 8     | `Internal consistency`          | Appendix Figure 4        |
+| 9     | `Level-wise consistency`        | Appendix Figure 5        |
+| 10    | `Correlations`                  | Appendix Figure 6        |
+| 11    | `get_proper_cluster_num`        | Appendix Figure 3        |
 
 Some optional configurations are:
 
