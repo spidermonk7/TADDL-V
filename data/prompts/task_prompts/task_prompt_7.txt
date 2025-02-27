@@ -1,0 +1,4 @@
+Task Name: Understand Scene
+Initial State: Present an picture of a indoor room
+Target State: The agent correctly answer the room type(i.e. kitchen, bathroom)
+

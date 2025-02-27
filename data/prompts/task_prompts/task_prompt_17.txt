@@ -1,0 +1,4 @@
+Task Name: Tracking ball movements
+Initial State: A person asks the agent to keep an eye on the movement of a ball.
+Target State: The agent can accurately follow and describe the movement of the ball.
+

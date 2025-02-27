@@ -1,3 +1,0 @@
-Task Name: Following the Movement of a Cat
-Initial State: Provide a video to the agent where a cat is moving around in a room.
-Target State: The agent's viewpoint should continuously track and follow the cat's movements throughout the video.

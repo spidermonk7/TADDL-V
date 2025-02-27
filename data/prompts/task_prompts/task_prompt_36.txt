@@ -1,0 +1,4 @@
+Task Name: Recognize the need for lighting
+Initial State: Present a video that shows: A person reading in a dark room. The agent is asked to figure out 
+Target State: The agent suggests to turn on the lights for better visibility.
+

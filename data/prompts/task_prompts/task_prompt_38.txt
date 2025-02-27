@@ -1,0 +1,4 @@
+Task Name: Physical Incongruity detection
+Initial State: The agent is presenting an image of a room, where some object is wrongly placed(e.g. a sofa is on the ceiling)
+Target State: The agent report the mistake
+

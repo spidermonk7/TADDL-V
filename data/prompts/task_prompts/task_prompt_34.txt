@@ -1,0 +1,4 @@
+Task Name: Pick the fruits
+Initial State: Show the agent a video that a person is showing how to pick apples from the bowl. And the agent is asked to sequentially describe scene and the person's behavior
+Target State: The agent correctly describes describe the person's behavior.
+

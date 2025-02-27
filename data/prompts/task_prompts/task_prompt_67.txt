@@ -1,0 +1,4 @@
+Task Name: Understand the temporal relationship between objects
+Initial State: Present two images that extracted from the beginning and the end of a video where some objects are move
+Target State: The agent correctly tell the temporal relationship between objects in two images(i.e. Cat1 in image1(beginning)on the table corresponds to Cat1 in image2(end) on the floor) because it's moving in the video.
+

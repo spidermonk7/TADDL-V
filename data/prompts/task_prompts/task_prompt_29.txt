@@ -1,0 +1,4 @@
+Task Name: Fold clothes
+Initial State: Present a video that shows how to fold a cloth. The agent is asked to fold the clothes following the video instructions.
+Target State: The agent successfully suggests how to the clothes.
+

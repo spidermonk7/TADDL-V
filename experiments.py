@@ -20,11 +20,11 @@ def load_config():
     arg_parser.add_argument('--data_file_path', type=str, default='./data/qs/combined_2.18.csv')
     arg_parser.add_argument('--print_details', action='store_true')
     arg_parser.add_argument('--exp_id', type=int, default=0)
-    arg_parser.add_argument('--TA_model', type=str, default='GPT4o')
+    arg_parser.add_argument('--TA_model', type=str, default='modified')
     
     args = arg_parser.parse_args()
     
-    assert args.TA_model in ['GPT4o', 'Human_Label', 'GPT3.5', 'GPT4']
+    assert args.TA_model in ['GPT4o', 'Human_Label', 'GPT3.5', 'GPT4', 'modified']
     
     config = {}
     config['data_file_path'] = args.data_file_path
@@ -134,11 +134,11 @@ def solve_FA(TA_model):
     # Preperation for solving Eq(7)
     dic = extract_task_ability_pair(data, TA_model=TA_model)
     # s = [-0.6672563874156494, -0.31292387300189234, -0.3747768685453051, -0.5932192896097728, -0.7818293148136716, -0.02886179159615257, -0.6490937158949027, -0.2045583925727929, -0.2952467800424811, 0.5852645447578632, -0.5890594325064331, -0.1365415165807757, -0.21376197747935938, -0.3629847320754949, -0.2891692879577607, -0.1918461300804619, -0.6780938715140045, -0.21764550409761171, 0.11744072985735314, -0.11416079428341515, 0.11624459108826216, -0.022189341374330738, -0.4811964269630615, -0.24809494591937606, -0.13847951332665123, -0.1927882762658033, -0.10666384978543528, 0.535904880394268, 0.20526455106846372, -0.37799363262764824, -0.19404290460012585, 0.3180860654977551, 0.11459142985578243, -0.0621094924379673, -0.3423531836998627, 0.042642763083779844, -0.24158304367757316, -0.03374048325206536, 0.16104833870902016, 0.32960554044363, -0.014450526909995683, -0.2772822392450799, 0.13485003457149833, 0.5638745042864997, 0.1881744668048225, -0.14674471987254925, 0.39189810181512436, 0.26063457674705154, 0.41810876150084486, 0.14630276611672854, 0.5101560204583445, 0.47747962649834974, 0.3005072446882672, 0.43466522040159433, 0.5078018522668665, -0.2766349434812061, -0.0703220846778818, 0.19174126747124035, 0.23372489245246036, -0.34657016733312007, -0.11252057104303362, 0.30586765668253396, 0.7425201825520881, -0.2751066563452655, 0.4545082403049548, 0.24950860741854375, 0.35125151765789975, 0.32470077862257063, 0.3317263230134376, 0.6158005858180643]
-    
     s, _ = read_result()
     s = np.array(s)
     s -= s.min()
     s += 1e-4
+    
     
     def loss_function(x, s=s, dic=dic):
         loss = 0
@@ -147,7 +147,8 @@ def solve_FA(TA_model):
             for j in [1, 2, 3, 4, 5]:
                 if j in dic[i]:
                     ability.append(x[j-1])
-            ability_weight = np.mean(ability)
+            # ability_weight = np.mean(ability)
+            ability_weight = np.sum(ability)
             loss += np.square(ability_weight - s[i])
 
         return loss
@@ -160,7 +161,9 @@ def solve_FA(TA_model):
 
     # solve Eq(7)
     initial_guess = [0, 0, 0, 0, 0]
-    result = minimize(loss_function, initial_guess, method='BFGS', callback=callback)
+    # Define bounds for each parameter (x1, x2, ..., x5)
+    bounds = [(0, None), (0, None), (0, None), (0, None), (0, None)]
+    result = minimize(loss_function, initial_guess, method='SLSQP', callback=callback,)
     mass = result.x
     print(f"Using {TA_model} as TA model, we can solve Equation (7), the results are:\n {result.x}")
     if TA_model == 'GT':
@@ -183,7 +186,7 @@ def solve_FA(TA_model):
     ax.grid(True, which='both', linestyle='--', linewidth=0.5)
     fig.patch.set_facecolor('none')
     ax.set_ylabel('F(A)', fontsize=12)
-    plt.ylim(0, 1.2)
+    # plt.ylim(0, 1.2)
     # Save and show
     plt.tight_layout()
     plt.savefig(f'figs/FA_{TA_model}.png')
@@ -194,7 +197,7 @@ def solve_FA(TA_model):
     sns.set(style="darkgrid")
     plt.figure(figsize=(8, 6))
     plt.title('Loss Curve', fontsize=18)
-    plt.plot(epochs, history, marker='D', label='GPT4o',)
+    plt.plot(epochs[2:], history[2:], marker='D', label='GPT4o',)
     plt.xlabel('Epochs')
     plt.legend()
     plt.gca().patch.set_alpha(1)  # Ensure the plot background is not transparent

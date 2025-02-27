@@ -1,0 +1,4 @@
+Task Name: Follow the rules of a game
+Initial State: Present a video that shows the rule of a simple game like tictactoe.
+Target State: The agent can follow the simple rules.
+

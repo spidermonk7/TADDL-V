@@ -1,0 +1,4 @@
+Task Name: Understand basic social rules 
+Initial State: A person starts eating without washing hands. 
+Target State: The agent gently reminds the person to wash hands before eating.
+

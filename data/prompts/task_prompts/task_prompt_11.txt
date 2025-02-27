@@ -1,0 +1,4 @@
+Task Name: Track the blue ball
+Initial State: Present a video where a blue bouncy ball is thrown to the wall then rebound around the room. The agent is asked to track the ball.
+Target State: The agent continuously tracks the balls' movement.
+

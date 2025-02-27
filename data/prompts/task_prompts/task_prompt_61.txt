@@ -1,0 +1,4 @@
+Task Name: Understanding personal space
+Initial State: The agent is shown a video of children playing and asked to point out when the personal space of a person is being invaded.
+Target State: The agent correctly identifies moments when personal space is invaded.
+

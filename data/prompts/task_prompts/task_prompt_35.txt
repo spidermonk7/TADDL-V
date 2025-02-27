@@ -1,0 +1,4 @@
+Task Name: Identify appropriate clothing for weather
+Initial State: Present an image of a nature scene(from which people can easily tell the weather), the agent is asked to select appropriate clothing items for it.
+Target State: The agent correctly selects clothing appropriate for the scene weather.
+

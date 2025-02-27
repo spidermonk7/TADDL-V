@@ -1,0 +1,4 @@
+Task Name: Read picture book
+Initial State: A picture book is provided. The agent is asked to describe what's happenning.
+Target State: The agent accurately describes all the images in the picture book.
+

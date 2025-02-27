@@ -1,0 +1,4 @@
+Task Name: Understanding story events
+Initial State: The agent is shown a series of pictures telling a simple story and asked to describe the events.
+Target State: The agent accurately describes the main events of the story in sequence.
+

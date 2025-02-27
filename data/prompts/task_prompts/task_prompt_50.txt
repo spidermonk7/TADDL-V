@@ -1,0 +1,4 @@
+Task Name: Recognize family roles
+Initial State: The agent is shown a series of family pictures and asked to identify the roles of each family member (such as mother, father, brother, and sister).
+Target State: The agent correctly identifies the role of each family member.
+

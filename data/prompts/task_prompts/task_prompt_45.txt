@@ -1,0 +1,4 @@
+Task Name: Storytelling with pictures
+Initial State: Show the agent a few pictures and ask them to tell a story based on the pictures.
+Target State: The agent tells a story that embodies the plot in all pictures.
+

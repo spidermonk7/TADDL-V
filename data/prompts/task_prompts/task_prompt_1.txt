@@ -1,0 +1,4 @@
+Task Name: Sort blocks by color
+Initial State: Present an image that shows: Several colored blocks are on the floor. The agent is asked to sort the blocks by color.
+Target State: The agent sorts all the blocks by color.
+

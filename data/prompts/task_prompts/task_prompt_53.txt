@@ -1,0 +1,4 @@
+Task Name: detect unstable placement
+Initial State: Present a picture of a room. The agent is asked to detect all the unstable placement(e.g.A bottle is placed closely to the table edge and about to fall)
+Target State: The agent successfully detect all the unstabel placements.
+

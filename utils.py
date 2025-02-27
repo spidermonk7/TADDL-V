@@ -40,15 +40,15 @@ def extract_task_ability_pair(data, TA_model='GPT4o'):
     dic = {}
     spliter = ' '
     ability_col = f'Required Ability({TA_model})'
-    assert TA_model in ['GPT4o', 'GPT3.5', 'GT', 'GPT4']
-    if TA_model == 'GPT4o' or TA_model=='GPT3.5':
+    assert TA_model in ['GPT4o', 'GPT3.5', 'GT', 'GPT4','modified']
+    if TA_model == 'GPT4o' or TA_model=='GPT3.5' or TA_model=='modified':
         spliter = ','
         
     for row in data.iterrows():
         if type(row[1][ability_col]) != str:
             dic[row[1]['index']] = [row[1][ability_col]]
         else:
-            dic[row[1]['index']] = [int(val) for val in row[1][ability_col].split(spliter)]
+            dic[row[1]['index']] = [int(val) for val in row[1][ability_col].replace(' ', '').split(spliter)]
 
     return dic
 

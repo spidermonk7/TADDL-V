@@ -1,0 +1,4 @@
+Task Name: Group animal toys
+Initial State: Present an image that: Different stuffed animal toys are scattered across the room: bears, dogs, and cats. The agent is asked to group similar animals. 
+Target State: The agent groups all similar animal toys correctly.
+

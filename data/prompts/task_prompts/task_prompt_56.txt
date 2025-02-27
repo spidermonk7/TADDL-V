@@ -1,0 +1,4 @@
+Task Name: Find covered objects in the room
+Initial State: The agent wants to find their toys in the house.
+Target State: The agent navigates the room to retrieve the toy.
+

@@ -1,0 +1,4 @@
+Task Name: Understand good and bad
+Initial State: Present a video that shows a agent hogs all the toys while another agent is boring. The agent is asked "What should the former agent do if he wants to be nice"
+Target State: The agent suggests the agent to share the toys and play together.
+

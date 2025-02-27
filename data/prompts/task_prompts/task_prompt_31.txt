@@ -1,0 +1,4 @@
+Task Name: Understanding causality
+Initial State: Present a video that shows:An agent presses a button and a lamp lights up
+Target State: The agent understands the button causally triggers lightening up
+

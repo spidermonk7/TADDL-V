@@ -1,0 +1,4 @@
+Task Name: Recognizing self in the mirror
+Initial State: An agent is looking into the mirror with a sticker on their forehead.
+Target State: The agent can recognize themself and remove the sticker.
+

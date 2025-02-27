@@ -1,0 +1,4 @@
+Task Name: Identify overfilled containers
+Initial State: Present a video that another person is pouring milk into an almost full cup.And the agent is asked to advise when stop pouring to avoid spilling.
+Target State: The agent advises to stop pouring to avoid spilling.
+

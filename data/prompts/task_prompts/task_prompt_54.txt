@@ -1,0 +1,4 @@
+Task Name: Recognizing and interpreting humor
+Initial State: A person laughs at a funny scene on the TV.
+Target State: The agent shares the child's joy and amplifies the humorous effect.
+

@@ -1,0 +1,4 @@
+Task Name: Follow gaze.
+Initial State: Present a video that shows: a person looking the agent in the eye and then looking towards a clock on the wall. The agent is asked what to do next.
+Target State: The agent translates this as a hint to check the time. 
+

@@ -1,0 +1,4 @@
+Task Name: Understand the concept of 'inside' and 'outside'
+Initial State: Present a video that shows: Placing a toy inside a box and asks the agent where the toy is.
+Target State: The agent accurately describes the toy’s location.
+

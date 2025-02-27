@@ -1,0 +1,4 @@
+Task Name: Understand object functions
+Initial State: Present an scene that shows: An agent holding a tool. 
+Target State: The agent suggests ways the agent might do with the tool(i.e. Holding a hammar)
+

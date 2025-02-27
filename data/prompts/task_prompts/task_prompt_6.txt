@@ -1,0 +1,4 @@
+Task Name: Find uncovered object
+Initial State: Present an image that shows:A toy car is on the floor, The agent is asked to find the toy car.
+Target State: The agent retrieves the toy car.
+

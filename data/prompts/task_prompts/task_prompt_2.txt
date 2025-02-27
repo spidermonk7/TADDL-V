@@ -1,0 +1,4 @@
+Task Name: Select a photo of a dog
+Initial State: A few pictures of animals are shown to the agent(1 animal each), and the agent is asked to identify the photo of a dog.
+Target State: The agent correctly identifies a dog's picture.
+

@@ -1,0 +1,4 @@
+Task Name: Fit puzzle pieces
+Initial State: A jigsaw puzzle(Only the shapes of puzzles matter) is laid out with a few pieces missing. The agent is asked to fit the missing pieces correctly.
+Target State: The agent fits all the missing pieces correctly.
+

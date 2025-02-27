@@ -1,0 +1,4 @@
+Task Name: Match the shapes
+Initial State: Show the agent a picture that:a set of shapes in different colors and sizes is scattered across a table, and the agent is asked to point out object of specific shape.
+Target State: The agent point out specific shape correctly.
+

@@ -1,0 +1,4 @@
+Task Name: Understand body language.
+Initial State: Present a video that shows a man is talking, while another person crosses their arms and looks away. The agent is asked to explain it.
+Target State: The agent recognizes this as an indication of discomfort or annoyance. 
+

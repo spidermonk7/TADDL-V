@@ -1,0 +1,4 @@
+Task Name: Watch kid running
+Initial State: Presenting a video which two kids are chasing each other
+Target State: The agent keep tracking the kidss moving trajectory withoud losing target.
+

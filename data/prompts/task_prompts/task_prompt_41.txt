@@ -1,0 +1,4 @@
+Task Name: Identify directions
+Initial State: Present four photos of a room token from different directions, agent is asked about the relationship between each image(e.g. photo1 is token on the left of photo2). 
+Target State: The agent correctly identifies each direction.
+

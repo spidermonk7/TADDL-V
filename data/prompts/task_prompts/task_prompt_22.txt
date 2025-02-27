@@ -1,0 +1,4 @@
+Task Name: Find a pair of glasses
+Initial State: The agent is standing in front of a desk, on which there are 3 closed boxes: two small dressing-case and a spectacle box 
+Target State: The agent suggest to open the spectacle box to find the glasses
+

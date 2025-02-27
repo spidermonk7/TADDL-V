@@ -1,0 +1,4 @@
+Task Name: Read a map
+Initial State: The agent is shown a simple map and asked to navigate from one location to another.
+Target State: The agent correctly maps out the route.
+

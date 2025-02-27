@@ -1,0 +1,4 @@
+Task Name: Understand running behavior
+Initial State: The agent is shown a sequence of pictures depicting a running man
+Target State: The agent correctly answer what the man is doing and explain why
+

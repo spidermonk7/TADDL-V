@@ -1,0 +1,4 @@
+Task Name: Recognize a smile.
+Initial State: Present an image of a smiling person, the agent is asked:"What's the person's emotion?"
+Target State: The agent identifies the expression as a happy smile. 
+

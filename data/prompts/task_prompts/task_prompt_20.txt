@@ -1,0 +1,4 @@
+Task Name: Set up a domino line
+Initial State: The agent is given a set of dominos. The task is to set the dominos in a straight line without them falling over.
+Target State: The agent sets the dominos up in a straight line without them falling over.
+

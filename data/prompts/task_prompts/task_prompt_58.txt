@@ -1,0 +1,4 @@
+Task Name: Identify anger from a person and help
+Initial State: Present an image that shows: a person's face turns red, shouting, and frowning. The agent is asked to explain that. 
+Target State: The agent recognizes the anger and attempts to soothe the person or remove the cause of the anger. 
+

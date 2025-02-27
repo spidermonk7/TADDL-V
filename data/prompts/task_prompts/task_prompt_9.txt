@@ -1,0 +1,4 @@
+Task Name: Arrange blocks
+Initial State: Present an image that shows: Several building blocks are scattered on the floor. The agent is instructed to stack these blocks in ascending order of size.
+Target State: The agent suggests how to arrange all blocks correctly in ascending order of size.
+

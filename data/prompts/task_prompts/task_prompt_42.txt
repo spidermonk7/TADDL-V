@@ -1,0 +1,4 @@
+Task Name: Avoid obstacles
+Initial State: Present a video that shows: A person instructs how to move from point A to point B without touching any obstacles. Then the agent got some scene between point A and B, and asked what to do(i.e. turn left, go straight forward)
+Target State: The agent successfully navigates from point A to point B without touching any obstacles.
+

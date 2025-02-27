@@ -1,0 +1,4 @@
+Task Name: Tidy up toys
+Initial State: Toys are scattered all around the room. The agent is instructed to put them all back in the toy box.
+Target State: The agent cleans up the room by putting all the toys back in the toy box.
+

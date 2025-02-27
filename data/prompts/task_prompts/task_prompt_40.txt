@@ -1,0 +1,4 @@
+Task Name: Toy assembly
+Initial State: Five parts of a toy with an assembly manual. The agent is asked to assemble the toy following the manual.
+Target State: The agent correctly describe how to assemble the toy according to the manual.
+

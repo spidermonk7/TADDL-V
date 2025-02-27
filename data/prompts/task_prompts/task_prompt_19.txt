@@ -1,0 +1,4 @@
+Task Name: Recognize shadows
+Initial State: Present an image that shows: The sun is directly above a tree and there's a darker shape on the ground.
+Target State: The agent identifies this darker shape as the tree's shadow. 
+

@@ -1,0 +1,4 @@
+Task Name: Track person wandering
+Initial State: Present a video that a person is wandering in the room. And the agent is asked to track his movement
+Target State: The agent keep tracking the person's movement.
+

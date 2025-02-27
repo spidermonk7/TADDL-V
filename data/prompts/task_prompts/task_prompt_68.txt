@@ -1,0 +1,4 @@
+Task Name: Understanding social interactions 
+Initial State: Present a video that shows: A group of child are playing together. and asks the agent to explain what's happening.
+Target State: The agent explains the social dynamics playing out within the group.
+

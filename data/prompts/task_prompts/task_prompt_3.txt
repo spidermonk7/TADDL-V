@@ -1,0 +1,4 @@
+Task Name: Count toy cars
+Initial State: Toy cars of various colors and sizes are scattered on the floor, and the agent is asked to count them all.
+Target State: The agent counts and gives the correct number of toy cars.
+

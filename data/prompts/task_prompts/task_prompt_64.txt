@@ -1,0 +1,4 @@
+Task Name: Understand pretend play.
+Initial State: Present a video that: A child pretends that his toy dinosaur is real and plays with them. The agent is asked to explain what's the kids doing.
+Target State: The agent explains that the kid plays along, treating the toy as a real dinosaur. 
+

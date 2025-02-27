@@ -1,0 +1,4 @@
+Task Name: Social Incongruity detection
+Initial State: Present a video in which some people perform weird actions.
+Target State: The agent point out the weird actions
+

@@ -1,0 +1,4 @@
+Task Name: Hand gesture recognition
+Initial State: Presenting a video in which a girl is waving her hand to the agent.
+Target State: The agent correctly explain the girl's intention
+

@@ -1,0 +1,4 @@
+Task Name: Interpret a pout
+Initial State: Present a video that shows: A person pouts and doesn't eat their vegetables.The agent is asked to explain it.
+Target State: The agent realizes that this person is not enjoying their meal.
+

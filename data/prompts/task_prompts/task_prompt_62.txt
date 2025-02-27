@@ -1,0 +1,4 @@
+Task Name: Understand fear.
+Initial State: Present an image that shows: A young child hides behind the couch during a thunderstorm. The agent is asked to explain the scene.
+Target State: The agent understands the child's fear.
+

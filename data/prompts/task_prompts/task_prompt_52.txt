@@ -1,0 +1,4 @@
+Task Name: Understand fighting
+Initial State: Present a video that two people are angry and about to have a fight. The agent is asked o tell what's happening
+Target State: The agent correctly describe the circumstance.
+

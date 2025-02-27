@@ -1,0 +1,4 @@
+Task Name: Iteratively build a block tower
+Initial State: The agent iteratively builds a block tower with another agent
+Target State: The agent can wait until their turn and put one block on top of the tower
+

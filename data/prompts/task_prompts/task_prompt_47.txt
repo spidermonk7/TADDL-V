@@ -1,0 +1,4 @@
+Task Name: Help others
+Initial State: A child cannot open a bottle after many tries.
+Target State: The agent autonomously asks to help the child.
+

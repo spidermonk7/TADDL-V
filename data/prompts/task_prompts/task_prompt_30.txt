@@ -1,0 +1,4 @@
+Task Name: Set the table
+Initial State: Presen a video that shows how to place plates, forks, knives, and a glass in the appropriate spots on a place setting at a dining table. Then give an image of some tableware, the agent is asked to tell how to lay them out.
+Target State: The agent correctly discribe how to set the table.
+

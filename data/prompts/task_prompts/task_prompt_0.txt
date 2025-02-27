@@ -1,0 +1,4 @@
+Task Name: Identify colors
+Initial State: Show the agent some images of pure color.
+Target State: The agent identifies all colors correctly.
+

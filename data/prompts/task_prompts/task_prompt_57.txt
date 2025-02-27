@@ -1,0 +1,4 @@
+Task Name: Recognize hungry pets
+Initial State: Present an video that shows: The pet cat is wandering around, meowing around the kitchen area.And the agent is asked about the cat's intention
+Target State: The agent indicates it may be hungry.
+

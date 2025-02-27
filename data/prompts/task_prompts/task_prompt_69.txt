@@ -1,0 +1,4 @@
+Task Name: Understanding abstract art
+Initial State: An abstract art is presented to the agent. The agent is asked to describe what the art signifies.
+Target State: The agent describes possible meanings of the abstract art.
+

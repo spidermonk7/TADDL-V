@@ -1,0 +1,4 @@
+Task Name: Identify 3D objects based on 2d perspective pictures
+Initial State: The agent is shown 2D pictures of an object from different viewpoints
+Target State: The agent accurately chooses the correct 3D object from 4 different options
+

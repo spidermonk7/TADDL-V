@@ -1,0 +1,4 @@
+Task Name: Seeing faces in art.
+Initial State: Present paintings of abstract shapes. The agent is asked to identify potential faces from the painting.
+Target State: The agent recognizes these shapes as human faces.
+

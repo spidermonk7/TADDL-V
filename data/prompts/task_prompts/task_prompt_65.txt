@@ -1,0 +1,4 @@
+Task Name: Understanding perspective
+Initial State: The agent is shown a scene from two different perspectives and asked to explain the differences.
+Target State: The agent accurately explains how the perspectives alter the view of the scene.
+

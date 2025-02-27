@@ -1,0 +1,4 @@
+Task Name: Understanding wants and needs 
+Initial State: Present a video that shows:A child is reaching for a toy on a high shelf. And the agent is asked about the kid's intention
+Target State: The agent describes the kid's intention
+

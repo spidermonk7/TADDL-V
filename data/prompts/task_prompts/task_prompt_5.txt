@@ -1,0 +1,4 @@
+Task Name: Recognize numbers
+Initial State: The agent is shown a series images of numbers(Just like MNIST dataset) and asked to name them.
+Target State: The agent correctly identifies each number shown.
+

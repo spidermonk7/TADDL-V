@@ -1,0 +1,4 @@
+Task Name: Recognize boredom
+Initial State: A person is sitting there, neither playing with toys nor paying attention to the cartoon on the table.
+Target State: The agent proposes some interactive games or activities for the person.
+

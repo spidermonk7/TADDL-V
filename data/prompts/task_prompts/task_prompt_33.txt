@@ -1,0 +1,4 @@
+Task Name: Understand reflections
+Initial State: The agent is shown a mirror reflection of a room and asked to describe what is in the room.
+Target State: The agent accurately describes the contents of the room reflected in the mirror.
+

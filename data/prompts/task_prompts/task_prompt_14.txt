@@ -1,0 +1,4 @@
+Task Name: Spot the difference
+Initial State: Two almost identical pictures of indoor scene with minor differences. The agent is asked to spot the differences.
+Target State: The agent correctly spots all the differences in the pictures.
+
